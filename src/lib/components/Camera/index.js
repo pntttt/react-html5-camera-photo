@@ -34,6 +34,7 @@ class Camera extends React.Component {
     };
     this.handleTakePhoto = this.handleTakePhoto.bind(this);
     this.clearShowVideoTimeout = this.clearShowVideoTimeout.bind(this);
+    this.stopCamera = this.stopCamera.bind(this);
   }
 
   componentDidMount () {
